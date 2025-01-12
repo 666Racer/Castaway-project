@@ -1,0 +1,8 @@
+.reviews-list{
+    display: grid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}

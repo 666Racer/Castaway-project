@@ -1,0 +1,28 @@
+.review-card{
+    background-color: #000000;
+    padding: 50px;
+    border-radius: 32px;
+    height: 65%;
+    /* С высотой 100 % карточки наезжают друг на друга */
+    display: flex;
+    flex-direction: column;
+}
+
+.review-card__rating{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.review-card__text{
+    font-size: 2.25rem;
+    line-height: 1.19;
+    margin-bottom: 20px;
+}
+
+.review-card__author{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.5rem;
+    margin-top: auto;
+}

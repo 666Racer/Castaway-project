@@ -1,0 +1,12 @@
+.header__nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+}
+
+/* добавил сам */
+
+ul{
+    list-style-type: none;
+}

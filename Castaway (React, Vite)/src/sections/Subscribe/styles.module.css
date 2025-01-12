@@ -1,0 +1,21 @@
+.subscribe-form{
+    background-color: #000;
+    padding: 60px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.subscribe-form__title{
+    font-size: 4.5rem;
+    line-height: 1.09;
+}
+
+.subscribe-form__aside{
+    max-width: 365px;
+}
+
+.subscribe-form__body{
+    width: 520px;
+}
